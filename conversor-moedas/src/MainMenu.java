@@ -1,11 +1,12 @@
 import currency.Conversor;
 import currency.SelectMoedas;
+import medidas.SelectMedidas;
 
 import javax.swing.*;
 
 public class MainMenu {
     public static void main(String[] args) {
-        Object[] options = {"Conversor de Moedas", "Em Breve outra opção"};
+        Object[] options = {"Conversor de Moedas", "Conversor de Medidas"};
 
         Object valorSelecionado = JOptionPane.showInputDialog(null,
                 "Escolha uma Opção", "Bem vindo ao Conversor!",
@@ -16,7 +17,7 @@ public class MainMenu {
             if (valorSelecionado == options[0]){
                 new SelectMoedas();
             } else if (valorSelecionado == options[1]) {
-                JOptionPane.showMessageDialog(null, "Essa função será adicionada em breve");
+                new SelectMedidas();
             }
         }catch (Exception e){
             JOptionPane.showMessageDialog(null, "Digite um valor válido.");
