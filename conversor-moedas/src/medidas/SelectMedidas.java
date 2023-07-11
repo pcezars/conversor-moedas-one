@@ -22,7 +22,15 @@ public class SelectMedidas {
 
     double value = Double.parseDouble(JOptionPane.showInputDialog("Adicione o valor a ser convertido"));
 
+    /**
+     * Recebe o input do usuario e passa como parametro
+     * para o contrutor da classe Converter
+     */
     ConverterMedidas option = new ConverterMedidas(menu, value);
 
+    /**
+     * Chama a classe responsavel por realizar
+     * os calculos de conversão
+     */
     double resultado = option.calculaConversao();
 }
