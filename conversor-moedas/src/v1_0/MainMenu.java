@@ -1,6 +1,7 @@
-import currency.Conversor;
-import currency.SelectMoedas;
-import medidas.SelectMedidas;
+package v1_0;
+
+import v1_0.currency.SelectMoedas;
+import v1_0.medidas.SelectMedidas;
 
 import javax.swing.*;
 

@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"currency","l":"Conversor"},{"p":"medidas","l":"ConverterMedidas"},{"p":"<Unnamed>","l":"MainMenu"},{"p":"medidas","l":"SelectMedidas"},{"p":"currency","l":"SelectMoedas"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"currency","l":"Conversor"},{"p":"v1_0.medidas","l":"ConverterMedidas"},{"p":"<Unnamed>","l":"MainMenu"},{"p":"v1_0.medidas","l":"SelectMedidas"},{"p":"currency","l":"SelectMoedas"}];updateSearchResults();

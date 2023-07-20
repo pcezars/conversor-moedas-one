@@ -1,4 +1,4 @@
-package medidas;
+package v1_0.medidas;
 
 import javax.swing.*;
 

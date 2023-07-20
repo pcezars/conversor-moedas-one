@@ -1,4 +1,4 @@
-package currency;
+package v1_0.currency;
 
 import javax.swing.*;
 

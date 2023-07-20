@@ -23,8 +23,8 @@ Utilizei o Swing do Java para realizar a parte de interface com o usuario, receb
 <dd>--- Conversão inversa de algumas moedas para Real</dd>
 
 <dt>-- Conversor de Medidas</dt>
-<dd>--- Converter Metro para algumas medidas</dd>
-<dd>--- Conversão inversa de algumas medidas para Metro</dd>
+<dd>--- Converter Metro para algumas v1_0.medidas</dd>
+<dd>--- Conversão inversa de algumas v1_0.medidas para Metro</dd>
 </dl>
 
 <hr>
