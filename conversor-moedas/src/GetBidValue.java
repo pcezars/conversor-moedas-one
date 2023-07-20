@@ -17,7 +17,7 @@ public class GetBidValue {
 	public double getBid(String t, String f) {
 		var client = HttpClient.newHttpClient();
 		
-		URI endereco = URI.create(url + t + "-" + f);
+		URI endereco = URI.create(url + f + "-" + t);
 		
 		var request = HttpRequest.newBuilder(endereco)
 				.GET()
